@@ -1,10 +1,7 @@
-
+from prime_check import *
+n = int(input())
 if n%2 == 0:
-  print('The number is even')
+  print('Even')
 else:
-  print('The number is odd')
-
-if isPrime(n):
-  print('The number is prime')
-else:
-  print('The number is compsite')
+  print('Odd')
+isPrime(n)

@@ -4,7 +4,7 @@ def isPrime(n):
         # Iterating over the given number with for loop  
         for j in range(2, int(n/2) + 1):  
             # If the given number is divisible or not  
-            if (a % j) == 0:  
+            if (n % j) == 0:
                 print("Composite number")  
                 break  
         # Else it is a prime number  
